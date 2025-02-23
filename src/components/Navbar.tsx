@@ -35,7 +35,7 @@ const Navbar = () => {
               {/* Make logo responsive */}
               <div className="relative w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 overflow-hidden rounded-full transition-all duration-300 group-hover:ring-2 group-hover:ring-gray-600">
                 <img 
-                  src={"Logo.png"}
+                  src="/Logo.png"
                   alt="3Dimension Logo" 
                   className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110"
                 />
@@ -111,7 +111,7 @@ const Navbar = () => {
                 className="flex items-center"
                 onClick={() => setIsMenuOpen(false)}
               >
-                <img src={"Logo.png"} alt="3Dimension Logo" className="h-8 w-8" />
+                <img src="/Logo.png" alt="3Dimension Logo" className="h-8 w-8" />
                 <span className="ml-2 text-xl font-bold text-gray-100">3Dimension</span>
               </Link>
               <button
